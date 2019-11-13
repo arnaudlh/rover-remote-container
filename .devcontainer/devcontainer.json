@@ -26,7 +26,7 @@
     // "shutdownAction": "none",
  
     // Uncomment the next line to run commands after the container is created.
-    "postCreateCommand": "mkdir -p /root/.ssh && cp -r /root/.ssh-localhost/* /root/.ssh && chmod 700 /root/.ssh && chmod 600 /root/.ssh/*",
+    "postCreateCommand": "cp -r /root/.ssh-localhost/* /root/.ssh && chmod 700 /root/.ssh && chmod 600 /root/.ssh/*",
  
     // Add the IDs of extensions you want installed when the container is created in the array below.
     "extensions": [
